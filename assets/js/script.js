@@ -49,5 +49,8 @@ function shakeImage() {
       image.classList.remove('shake');
     }, 700);
 
-    showRandomQuote()
+    showRandomQuote();
 };
+
+// Image Event Listener
+image.addEventListener('click', shakeImage);

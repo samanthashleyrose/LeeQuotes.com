@@ -68,7 +68,7 @@ main {
     display: none;
     opacity: 1;
     text-align: center;
-    max-width: 10%;
+    max-width: 12%;
 }
 
 #quote {
@@ -79,7 +79,7 @@ main {
     transition-duration: 3s;
     transition-property: opacity;
     text-align: center;
-    padding: 0%;
+    margin-bottom: 12%;
 }
 
 #quote.fade {
