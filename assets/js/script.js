@@ -13,15 +13,6 @@ const quotes = [
     'DO NOT MIX PROMISES AND CALLBACKS. It is a source of pain',
 ]
 
-// Makes image shake when clicked
-function shakeImage() {
-    image.classList.add('shake');
-
-    setTimeout(() => {
-      image.classList.remove('shake');
-    }, 700);
-  }
-
 // Displays a random quote on top of the image
 function showRandomQuote() {
     // Choose a random quote
@@ -42,12 +33,21 @@ function showRandomQuote() {
     setTimeout(() => {
         displayQuote.classList.remove('fade');
 
-        shakeImage()
-
         setTimeout(() => {
             quoteContainer.style.opacity = '0';
             quoteContainer.style.display = 'none';
             displayQuote.textContent = '';
-        }, 2000);
+        }, 5000);
     }, 750);
-}
+};
+
+// Makes image shake when clicked
+function shakeImage() {
+    image.classList.add('shake');
+
+    setTimeout(() => {
+      image.classList.remove('shake');
+    }, 700);
+
+    showRandomQuote()
+};
