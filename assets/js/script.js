@@ -5,5 +5,5 @@ function shakeImage() {
 
     setTimeout(() => {
       image.classList.remove('shake');
-    }, 500);
+    }, 700);
   }
