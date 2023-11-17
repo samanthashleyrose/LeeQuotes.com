@@ -65,28 +65,26 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
-    text-align: center;
     display: none;
     opacity: 1;
     text-align: center;
+    max-width: 10%;
 }
 
 #quote {
     color: white;
     font-size: .8rem;
+    font-family: 'Kdam Thmor Pro';
     opacity: 1;
     transition-duration: 3s;
     transition-property: opacity;
-    max-width: 50%;
     text-align: center;
+    padding: 0%;
 }
 
 #quote.fade {
     opacity: 0;
 }
-
-
 
 .full-list-btn {
     background: radial-gradient(closest-side, rgb(72, 31, 119), rgb(46, 14, 85));
