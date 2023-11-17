@@ -5,15 +5,15 @@
 }
 
 body {
-    background-color: rgb(84, 74, 87);
-    background: linear-gradient(to top, rgb(38, 3, 80), rgb(24, 3, 49));
+    background: radial-gradient(closest-side, rgb(135, 68, 168), rgb(21, 2, 44));
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 125vh;
+    min-height: 100vh;
     font-family: 'Archivo Black';
 }
 
 header {
+    margin: 5%;
     text-align: center;
 }
 
@@ -33,13 +33,15 @@ main {
 .eight-ball {
     align-items: center;
     padding: 5%;
-    width: 50%;
+    width: 60%;
 }
 
 .full-list-btn {
-    background-color: rgb(99, 22, 215);
-    padding: 3%;
+    background: radial-gradient(closest-side, rgb(72, 31, 119), rgb(46, 14, 85));
+    box-shadow: 1px 10px 5px rgb(21, 2, 44);
     border-radius: 10px;
+    border-color: rgba(21, 2, 44, 0.865);
     color: white;
     font-size: 1rem;
+    padding: 2%;
 }
