@@ -1,4 +1,6 @@
 // GLOBAL VARIABLES
+const image = document.getElementById('shakingImage');
+const quoteContainer = document.getElementById('quoteContainer');
 
 const quotes = [
     'Banana',
@@ -13,7 +15,6 @@ const quotes = [
 
 // Makes image shake when clicked
 function shakeImage() {
-    const image = document.getElementById('shakingImage');
     image.classList.add('shake');
 
     setTimeout(() => {
@@ -21,3 +22,32 @@ function shakeImage() {
     }, 700);
   }
 
+// Displays a random quote on top of the image
+function showRandomQuote() {
+    // Choose a random quote
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    const randomQuote = quotes[randomIndex];
+
+    // Create Quote
+    const displayQuote = document.createElement('p');
+    displayQuote.setAttribute('id', 'quote');
+    displayQuote.textContent = randomQuote;
+
+    // Display Quote
+    quoteContainer.style.opacity = '1';
+    quoteContainer.style.display = 'block';
+    displayQuote.setAttribute('class', 'fade');
+    quoteContainer.appendChild(displayQuote);
+
+    setTimeout(() => {
+        displayQuote.classList.remove('fade');
+
+        shakeImage()
+
+        setTimeout(() => {
+            quoteContainer.style.opacity = '0';
+            quoteContainer.style.display = 'none';
+            displayQuote.textContent = '';
+        }, 2000);
+    }, 750);
+}

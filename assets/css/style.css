@@ -34,7 +34,7 @@ main {
 
 .shake-container {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .shake {
@@ -58,6 +58,32 @@ main {
     padding: 5%;
     width: 70%;
 }
+
+#quoteContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: none;
+    opacity: 1;
+}
+
+#quote {
+    color: white;
+    font-size: 18px;
+    opacity: 1;
+    transition-duration: 3s;
+    transition-property: opacity;
+}
+
+#quote.fade {
+    opacity: 0;
+}
+
+
 
 .full-list-btn {
     background: radial-gradient(closest-side, rgb(72, 31, 119), rgb(46, 14, 85));
