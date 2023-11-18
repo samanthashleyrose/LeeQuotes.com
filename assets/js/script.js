@@ -32,19 +32,17 @@ function showRandomQuote() {
 
     setTimeout(() => {
         displayQuote.classList.remove('fade');
-
-        setTimeout(() => {
-            quoteContainer.style.opacity = '0';
-            quoteContainer.style.display = 'none';
-            displayQuote.textContent = '';
-        }, 5000);
     }, 750);
 };
+
+function clearQuote() {
+    quoteContainer.textContent = '';
+}
 
 // Makes image shake when clicked
 function shakeImage(event) {
     event.preventDefault();
-    
+
     clearQuote();
 
     image.classList.add('shake');
@@ -55,10 +53,6 @@ function shakeImage(event) {
 
     showRandomQuote();
 };
-
-function clearQuote() {
-    quoteContainer.textContent = '';
-}
 
 // Image Event Listeners
 image.addEventListener('click', shakeImage);
