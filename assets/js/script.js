@@ -10,7 +10,7 @@ const quotes = [
         quote: `Meatloaf`
     },
     {
-        quote: `For\nFunsies`
+        quote: `For Funsies`
     },
     {
         quote: `Banana\nMeatloaf`
@@ -22,10 +22,10 @@ const quotes = [
         quote: `That's just how\nfunctions\nwork`
     },
     {
-        quote: `We put code in\nyour code so you\ncan code while\nyou code`
+        quote: `We put code in your\ncode so you can\ncode while\nyou code`
     },
     {
-        quote: `DO NOT MIX PROMISES AND \nCALLBACKS. It\nis a source\nof pain`
+        quote: `DO NOT MIX \nPROMISES & \nCALLBACKS.\nIt is a source\nof pain`
     }
 ];
 

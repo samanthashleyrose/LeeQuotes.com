@@ -38,7 +38,6 @@ h2 {
 /* MAGIC 8 BALL */
 .shake-container {
     position: relative;
-    /* display: inline-block; */
 }
 
 .shake {
@@ -84,7 +83,7 @@ h2 {
     transition-duration: 3s;
     transition-property: opacity;
     text-align: center;
-    margin-bottom: 12%;
+    margin-bottom: 20%;
 }
 
 #quote.fade {
@@ -99,12 +98,14 @@ h2 {
     border-color: rgba(21, 2, 44, 0.865);
     color: white;
     font-size: 1rem;
+    font-family: 'Arimo', 'sans-serif';
     padding: 2%;
+    margin-bottom: 5%;
 }
 
 /* RESPONSIVENESS */
 
-/* XXS */
+/* 2XLG */
 @media (max-width: 2000px) and (min-width: 1500px){
     h1 {
         font-size: 4rem;
@@ -116,9 +117,258 @@ h2 {
         width: 45%;
     }
     #quoteContainer {
+        max-width: 13%;
+    }
+    #quote {
+        font-size: .8rem;
+    }
+    .full-list-btn {
+        font-size: 1rem;
+        padding: 1.5%;
+    }
+}
+
+/* XLG */
+@media (max-width: 1499px) and (min-width: 1202px){
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .magic-eight-ball {
+        width: 48%;
+    }
+    #quoteContainer {
+        max-width: 12%;
+    }
+    #quote {
+        font-size: .72rem;
+    }
+    .full-list-btn {
+        font-size: 1rem;
+        padding: 1.5%;
+    }
+}
+
+/* XLG */
+@media (max-width: 1201px) and (min-width: 1100px){
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .magic-eight-ball {
+        width: 50%;
+    }
+    #quoteContainer {
         max-width: 10%;
     }
     #quote {
+        font-size: .7rem;
+    }
+}
+
+/* LG */
+@media (max-width: 1099px) and (min-width: 1050px){
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .magic-eight-ball {
+        width: 53%;
+    }
+    #quoteContainer {
+        max-width: 15%;
+    }
+    #quote {
+        font-size: .68rem;
+    }
+}
+
+/* LG */
+@media (max-width: 1049px) and (min-width: 1000px){
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 2%;
+    }
+    .magic-eight-ball {
+        width: 53%;
+    }
+    #quoteContainer {
+        max-width: 13%;
+    }
+    #quote {
+        font-size: .65rem;
+    }
+}
+
+/* LG */
+@media (max-width: 999px) and (min-width: 899px){
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 2.5%;
+    }
+    .magic-eight-ball {
+        width: 55%;
+    }
+    #quoteContainer {
+        max-width: 13%;
+    }
+    #quote {
+        font-size: .65rem;
+    }
+}
+
+/* M */
+@media (max-width: 898px) and (min-width: 799px){
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 3%;
+    }
+    .magic-eight-ball {
+        width: 60%;
+    }
+    #quoteContainer {
+        max-width: 15%;
+    }
+    #quote {
+        font-size: .65rem;
+    }
+    .full-list-btn {
         font-size: 1rem;
+        padding: 2.5%;
+    }
+}
+
+/* M */
+@media (max-width: 798px) and (min-width: 699px){
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 3.5%;
+    }
+    .magic-eight-ball {
+        width: 68%;
+    }
+    #quoteContainer {
+        max-width: 15%;
+    }
+    #quote {
+        font-size: .65rem;
+    }
+    .full-list-btn {
+        font-size: 1rem;
+        padding: 2.8%;
+    }
+}
+
+/* M */
+@media (max-width: 698px) and (min-width: 599px){
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 4%;
+    }
+    .magic-eight-ball {
+        width: 75%;
+    }
+    #quoteContainer {
+        max-width: 17%;
+    }
+    #quote {
+        font-size: .65rem;
+    }
+    .full-list-btn {
+        font-size: .9rem;
+        padding: 3%;
+    }
+}
+
+/* S */
+@media (max-width: 598px) and (min-width: 499px){
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1.35rem;
+        margin-bottom: 5%;
+    }
+    .magic-eight-ball {
+        width: 85%;
+    }
+    #quoteContainer {
+        max-width: 20%;
+    }
+    #quote {
+        font-size: .6rem;
+    }
+    .full-list-btn {
+        font-size: .85rem;
+        padding: 3.5%;
+    }
+}
+
+/* XS */
+@media (max-width: 498px) and (min-width: 399px){
+    h1 {
+        font-size: 2.4rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+        margin-bottom: 5%;
+    }
+    .magic-eight-ball {
+        width: 90%;
+    }
+    #quoteContainer {
+        max-width: 25%;
+    }
+    #quote {
+        font-size: .5rem;
+    }
+    .full-list-btn {
+        font-size: .8rem;
+        padding: 3.5%;
+    }
+}
+
+/* XXS */
+@media (max-width: 398px) and (min-width: 300px){
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: .91rem;
+        margin-bottom: 5%;
+    }
+    .magic-eight-ball {
+        width: 90%;
+    }
+    #quoteContainer {
+        max-width: 30%;
+    }
+    #quote {
+        font-size: .4rem;
+    }
+    .full-list-btn {
+        font-size: .7rem;
+        padding: 4.5%;
     }
 }
