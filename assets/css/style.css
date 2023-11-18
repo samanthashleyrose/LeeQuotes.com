@@ -1,3 +1,4 @@
+/* UNIVERSAL - MAIN */
 * {
     margin: 0%;
     padding: 0%;
@@ -12,6 +13,11 @@ body {
     font-family: 'Arimo', 'sans-serif';
 }
 
+main {
+    text-align: center;
+}
+
+/* HEADER */
 header {
     margin-top: 5%;
     margin-bottom: 2%;
@@ -23,15 +29,13 @@ h1 {
     color: white;
     font-size: 3.5rem;
 }
+
 h2 {
     color: white;
     font-size: 1.5rem;
 }
 
-main {
-    text-align: center;
-}
-
+/* MAGIC 8 BALL */
 .shake-container {
     position: relative;
     /* display: inline-block; */
@@ -59,6 +63,7 @@ main {
     width: 60%;
 }
 
+/* QUOTES */
 #quoteContainer {
     position: absolute;
     top: 50%;
@@ -86,6 +91,7 @@ main {
     opacity: 0;
 }
 
+/* FULL QUOTE LIST */
 .full-list-btn {
     background: radial-gradient(closest-side, rgb(72, 31, 119), rgb(46, 14, 85));
     box-shadow: 1px 10px 5px rgb(21, 2, 44);
@@ -94,4 +100,25 @@ main {
     color: white;
     font-size: 1rem;
     padding: 2%;
+}
+
+/* RESPONSIVENESS */
+
+/* XXS */
+@media (max-width: 2000px) and (min-width: 1500px){
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .magic-eight-ball {
+        width: 45%;
+    }
+    #quoteContainer {
+        max-width: 10%;
+    }
+    #quote {
+        font-size: 1rem;
+    }
 }

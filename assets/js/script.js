@@ -11,7 +11,7 @@ const quotes = [
     "That's just how functions work",
     'We put code in your code so you can code while you code',
     'DO NOT MIX PROMISES AND CALLBACKS. It is a source of pain',
-]
+];
 
 // Displays a random quote on top of the image
 function showRandomQuote() {
