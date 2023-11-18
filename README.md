@@ -28,6 +28,8 @@ Navigating LeeQuotes.com is straightforward. Simply follow the on-screen instruc
 
 See the [Features](#features) section to discover the "Click to see full quote list" button and its functionality.
 
+insert screenshot and shake demo video
+
 ## Credits
 
 #### Technologies Used:
