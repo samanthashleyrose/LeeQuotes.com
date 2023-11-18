@@ -42,7 +42,11 @@ function showRandomQuote() {
 };
 
 // Makes image shake when clicked
-function shakeImage() {
+function shakeImage(event) {
+    event.preventDefault();
+    
+    clearQuote();
+
     image.classList.add('shake');
 
     setTimeout(() => {
@@ -52,5 +56,12 @@ function shakeImage() {
     showRandomQuote();
 };
 
-// Image Event Listener
+function clearQuote() {
+    quoteContainer.textContent = '';
+}
+
+// Image Event Listeners
 image.addEventListener('click', shakeImage);
+image.addEventListener('dblclick', (event) => {
+    event.preventDefault();
+});
