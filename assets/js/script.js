@@ -3,14 +3,30 @@ const image = document.getElementById('shakingImage');
 const quoteContainer = document.getElementById('quoteContainer');
 
 const quotes = [
-    'Banana',
-    'Meatloaf',
-    'For Funsies',
-    'Banana Meatloaf',
-    'Bueller… Bueller… Bueller…',
-    "That's just how functions work",
-    'We put code in your code so you can code while you code',
-    'DO NOT MIX PROMISES AND CALLBACKS. It is a source of pain',
+    {
+        quote: `Banana`
+    },
+    {
+        quote: `Meatloaf`
+    },
+    {
+        quote: `For\nFunsies`
+    },
+    {
+        quote: `Banana\nMeatloaf`
+    },
+    {
+        quote: `Bueller… \nBueller… \nBueller…`
+    },
+    {
+        quote: `That's just how\nfunctions\nwork`
+    },
+    {
+        quote: `We put code in\nyour code so you\ncan code while\nyou code`
+    },
+    {
+        quote: `DO NOT MIX PROMISES AND \nCALLBACKS. It\nis a source\nof pain`
+    }
 ];
 
 // Displays a random quote on top of the image
@@ -22,7 +38,7 @@ function showRandomQuote() {
     // Create Quote
     const displayQuote = document.createElement('p');
     displayQuote.setAttribute('id', 'quote');
-    displayQuote.textContent = randomQuote;
+    displayQuote.innerHTML = randomQuote.quote.replace(/\n/g, '<br>');
 
     // Display Quote
     quoteContainer.style.opacity = '1';
