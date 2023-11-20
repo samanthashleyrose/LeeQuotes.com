@@ -3,9 +3,9 @@
 
 ## Description
 
-Welcome to <a href="https://samanthashleyrose.github.io/LeeQuotes.com/">LeeQuotes.com</a>, a selected collection of insightful and humorous quotes from our esteemed instructor, Lee Warrick. 
+Welcome to <a href="https://samanthashleyrose.github.io/LeeQuotes.com/">LeeQuotes.com</a>, a collection of insightful and humorous quotes from our noteworthy instructor, Lee Warrick. 
 
-[Navigating](#usage) the site is a breeze--simply follow the on-screen instructions to bring forth a new quote, providing a delightful and random experience. Explore additional [Features](#features), such as the "Click to see full quote list" button, to access the entire collection of quotes at your fingertips.
+[Navigating](#usage) the site is a breeze--simply follow the on-screen instructions to bring forth a new randomized quote, providing a delightful and engaging experience. Explore additional [Features](#features), such as the "Click to see full quote list" button, to access the entire collection of quotes.
 
 LeeQuotes.com is designed to bring a touch of wisdom and amusement to your day, offering a unique and engaging way to experience the wit and wisdom of our instructor.
 
@@ -24,7 +24,7 @@ No installation necessary!
 
 ## Usage
 
-Navigating LeeQuotes.com is straightforward. Simply follow the on-screen instructions and click on the Magic 8 Ball image. The Magic 8 Ball will shake, revealing a quote that will slowly appear. You may shake the Magic 8 Ball repeatedly to reveal new quotes at random.
+Navigating LeeQuotes.com is straightforward. Click on the Magic 8 Ball image which will then shake, slowly revealing a quote. You may shake the Magic 8 Ball repeatedly to reveal new quotes at random.
 
 See the [Features](#features) section to discover the "Click to see full quote list" button and its functionality.
 
@@ -32,12 +32,18 @@ insert screenshot and shake demo video
 
 ## Credits
 
+#### Quotes From:
+<li>Lee Warrick -- <a href="https://leewarrick.com/">Personal Portfolio</a></li>
+
 #### Technologies Used:
+<li><a href="https://chat.openai.com/">ChatGPT</a></li>
 <li><a href="https://www.imagine.art/dashboard/tool/image-remix">Imagine Art</a></li>
 
 #### Documentation Used:
 <li><a href="https://www.shutterstock.com/search/magic-8-ball">Shutterstock</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient">MDN Web Docs Radial Gradient</a></li>
+<li><a href="https://www.w3schools.com/jsref/jsref_replace.asp">W3Schools replace() Method</a></li>
+<li><a href="https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php">W3Schools CSS @keyframes Rule</a></li>
 
 ## Features
 
