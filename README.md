@@ -28,7 +28,7 @@ Navigating LeeQuotes.com is straightforward. Click on the Magic 8 Ball image whi
 
 See the [Features](#features) section to discover the "Click to see full quote list" button and its functionality.
 
-insert screenshot and shake demo video
+![LeeQuotes.com Screenshot](./assets/images/LeeQuotes.com-SC.png)
 
 ## Credits
 
