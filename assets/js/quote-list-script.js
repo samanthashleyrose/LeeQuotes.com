@@ -2,7 +2,7 @@
 const goBackBtn = document.getElementById('go-back-btn');
 
 function goBackToMainPage() {
-    window.location.href = '../main.html';
+    window.location.href = '../index.html';
 }
 
 goBackBtn.addEventListener('click', goBackToMainPage);
