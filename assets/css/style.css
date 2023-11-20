@@ -128,6 +128,13 @@ p {
     padding: 2%;
 }
 
+#name {
+    text-align: right;
+    color: white;
+    font-family: 'Arimo', 'sans-serif';
+    margin-right: 2%;
+}
+
 #go-back-btn {
     background: radial-gradient(closest-side, rgb(72, 31, 119), rgb(46, 14, 85));
     box-shadow: 1px 10px 5px rgb(21, 2, 44);
