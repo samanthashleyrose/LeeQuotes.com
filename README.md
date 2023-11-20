@@ -5,7 +5,7 @@
 
 Welcome to <a href="https://samanthashleyrose.github.io/LeeQuotes.com/">LeeQuotes.com</a>, a collection of insightful and humorous quotes from our noteworthy instructor, Lee Warrick. 
 
-[Navigating](#usage) the site is a breeze--simply follow the on-screen instructions to bring forth a new randomized quote, providing a delightful and engaging experience. Explore additional [Features](#features), such as the "Click to see full quote list" button, to access the entire collection of quotes.
+[Navigating](#usage) the site is a breeze--simply follow the on-screen instructions to bring forth a new randomized quote, providing a delightful and engaging experience. Explore additional [Features](#features), such as the "Click here for the full quote list" button, to access the entire collection of quotes.
 
 LeeQuotes.com is designed to bring a touch of wisdom and amusement to your day, offering a unique and engaging way to experience the wit and wisdom of our instructor.
 
@@ -26,7 +26,7 @@ No installation necessary!
 
 Navigating LeeQuotes.com is straightforward. Click on the Magic 8 Ball image which will then shake, slowly revealing a quote. You may shake the Magic 8 Ball repeatedly to reveal new quotes at random.
 
-See the [Features](#features) section to discover the "Click to see full quote list" button and its functionality.
+See the [Features](#features) section for a demonstration on the functionality of the site and to discover the "Click here for the full quote list" button.
 
 ![LeeQuotes.com Screenshot](./assets/images/LeeQuotes.com-SC.png)
 
@@ -47,8 +47,7 @@ See the [Features](#features) section to discover the "Click to see full quote l
 
 ## Features
 
-click to see full quote list 
-add demo video
+https://github.com/samanthashleyrose/LeeQuotes.com/assets/142939966/eaa254ed-3cb5-4899-ba6d-2c71f6b36744
 
 ## How to Contribute
 
