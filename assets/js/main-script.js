@@ -1,6 +1,8 @@
 // GLOBAL VARIABLES
 const image = document.getElementById('shakingImage');
 const quoteContainer = document.getElementById('quoteContainer');
+const quoteList = document.getElementById('full-list-btn');
+const goBackBtn = document.getElementById('go-back-btn');
 
 const quotes = [
     {
@@ -10,10 +12,10 @@ const quotes = [
         quote: `Meatloaf`
     },
     {
-        quote: `For Funsies`
+        quote: `Banana\nMeatloaf`
     },
     {
-        quote: `Banana\nMeatloaf`
+        quote: `For Funsies`
     },
     {
         quote: `Bueller… \nBueller… \nBueller…`
@@ -70,8 +72,14 @@ function shakeImage(event) {
     showRandomQuote();
 };
 
-// Image Event Listeners
+// Buttons to go between html's
+function goToQuoteList() {
+    window.location.href = './quote-list/quote-list.html';
+}
+
+// Event Listeners
 image.addEventListener('click', shakeImage);
 image.addEventListener('dblclick', (event) => {
     event.preventDefault();
 });
+quoteList.addEventListener('click', goToQuoteList);
