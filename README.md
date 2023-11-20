@@ -7,7 +7,7 @@ Welcome to <a href="https://samanthashleyrose.github.io/LeeQuotes.com/">LeeQuote
 
 [Using](#usage) the site is a breeze--simply follow the on-screen instructions to bring forth a new randomized quote, providing a delightful and engaging experience. Explore additional [Features](#features), such as the "Click here for the full quote list" button, to access the entire collection of quotes.
 
-LeeQuotes.com is designed to bring a touch of wisdom and amusement to your day, offering a unique and engaging way to experience the wit and wisdom of our instructor.
+LeeQuotes.com is designed to bring a touch of wisdom and amusement to your day, offering a unique and engaging way to experience the wit and insightfulness of our instructor.
 
 ## Table of Contents
 
