@@ -43,6 +43,9 @@ const quotes = [
     },
     {
         quote: `10 points for\ngryffindor`
+    },
+    {
+        quote: `Code Smell`
     }
 ];
 
