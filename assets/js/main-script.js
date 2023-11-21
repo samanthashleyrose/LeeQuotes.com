@@ -28,6 +28,21 @@ const quotes = [
     },
     {
         quote: `DO NOT MIX \nPROMISES & \nCALLBACKS.\nIt is a source\nof pain`
+    },
+    {
+        quote: `Vanilla css is\ngood practice`
+    },
+    {
+        quote: `Questions, Concerns,\n Threats...\nCompliments?\nno? ok.`
+    },
+    {
+        quote: `You guys look\nburnt out`
+    },
+    {
+        quote: `Give yourself\na patented\nPOB`
+    },
+    {
+        quote: `10 points for\ngryffindor`
     }
 ];
 
