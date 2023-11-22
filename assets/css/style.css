@@ -133,6 +133,7 @@ p {
     color: white;
     font-family: 'Arimo', 'sans-serif';
     margin-right: 2%;
+    font-style: italic;
 }
 
 #go-back-btn {
