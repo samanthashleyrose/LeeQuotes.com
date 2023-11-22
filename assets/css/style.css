@@ -175,17 +175,19 @@ p {
     .list-card {
         font-size: 1.1rem;
         padding: 2%;
+        width: 40%;
     }
     .list-container {
         margin-left: 20%;
         margin-right: 20%;
     }
     p {
-        padding: 3%;
+        padding: 1.5%;
     }
     #go-back-btn {
         font-size: 1rem;
         padding: 1.2%;
+        margin-top: 3%;
     }
 }
 
@@ -214,17 +216,19 @@ p {
     .list-card {
         font-size: 1.1rem;
         padding: 2%;
+        width: 40%;
     }
     .list-container {
         margin-left: 20%;
         margin-right: 20%;
     }
     p {
-        padding: 3%;
+        padding: 1.5%;
     }
     #go-back-btn {
         font-size: 1rem;
         padding: 1.4%;
+        margin-top: 4%;
     }
 }
 
@@ -249,17 +253,19 @@ p {
     .list-card {
         font-size: 1.1rem;
         padding: 2%;
+        width: 48%;
     }
     .list-container {
         margin-left: 20%;
         margin-right: 20%;
     }
     p {
-        padding: 3%;
+        padding: 1.5%;
     }
     #go-back-btn {
         font-size: 1rem;
         padding: 1.5%;
+        margin-top: 4%;
     }
 }
 
@@ -284,13 +290,14 @@ p {
     .list-card {
         font-size: 1rem;
         padding: 2%;
+        width: 50%;
     }
     .list-container {
         margin-left: 20%;
         margin-right: 20%;
     }
     p {
-        padding: 3%;
+        padding: 2%;
     }
     #go-back-btn {
         font-size: 1rem;
@@ -326,7 +333,7 @@ p {
         margin-right: 20%;
     }
     p {
-        padding: 3%;
+        padding: 2%;
     }
     #go-back-btn {
         font-size: 1rem;
@@ -362,7 +369,7 @@ p {
         margin-right: 15%;
     }
     p {
-        padding: 3%;
+        padding: 2%;
     }
     #go-back-btn {
         font-size: 1rem;
@@ -402,7 +409,7 @@ p {
         margin-right: 12%;
     }
     p {
-        padding: 3%;
+        padding: 2%;
     }
     #go-back-btn {
         font-size: 1rem;
@@ -443,7 +450,7 @@ p {
         margin-right: 10%;
     }
     p {
-        padding: 3%;
+        padding: 2%;
     }
     #go-back-btn {
         font-size: 1rem;
@@ -477,7 +484,7 @@ p {
     .list-card {
         font-size: 1rem;
         padding: 2%;
-        width: 70%;
+        width: 60%;
     }
     .list-container {
         margin-left: 10%;
@@ -518,14 +525,14 @@ p {
     .list-card {
         font-size: 1rem;
         padding: 2%;
-        width: 70%;
+        width: 50%;
     }
     .list-container {
         margin-left: 0%;
         margin-right: 0%;
     }
     p {
-        padding: 2%;
+        padding: 2.2%;
     }
     #go-back-btn {
         font-size: 1rem;

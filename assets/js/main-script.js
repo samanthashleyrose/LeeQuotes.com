@@ -46,7 +46,16 @@ const quotes = [
     },
     {
         quote: `Code Smell`
-    }
+    },
+    {
+        quote: `Clear as\nmud?`
+    },
+    {
+        quote: `Don't panic`
+    },
+    {
+        quote: `Objection!\nLeading the\nwitness`
+    },
 ];
 
 // Displays a random quote on top of the image
