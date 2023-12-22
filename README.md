@@ -44,6 +44,7 @@ See the [Features](#features) section for a demonstration on the functionality o
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient">MDN Web Docs Radial Gradient</a></li>
 <li><a href="https://www.w3schools.com/jsref/jsref_replace.asp">W3Schools replace() Method</a></li>
 <li><a href="https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php">W3Schools CSS @keyframes Rule</a></li>
+<li><a href="https://stackoverflow.com/questions/18221104/how-do-i-create-a-scrollable-textbox">Scrollable textbox - stackoverflow</a></li>
 
 ## Features
 
