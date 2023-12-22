@@ -56,6 +56,24 @@ const quotes = [
     {
         quote: `Objection!\nLeading the\nwitness`
     },
+    {
+        quote: `You're gonna\nhave a bad\ntime`
+    },
+    {
+        quote: `Give it the\nold college\ntry`
+    },
+    {
+        quote: `Otay`
+    },
+    {
+        quote: `Automagically`
+    },
+    {
+        quote: `And we're\nback`
+    },
+    {
+        quote: `If you're not here,\nsay 'not here'`
+    },
 ];
 
 // Displays a random quote on top of the image
