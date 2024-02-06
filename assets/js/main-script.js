@@ -74,6 +74,15 @@ const quotes = [
     {
         quote: `If you're not here,\nsay 'not here'`
     },
+    {
+        quote: `Why are there\nso many\nwines?`
+    },
+    {
+        quote: `Seems legit`
+    },
+    {
+        quote: `If you feel\nfroggy`
+    },
 ];
 
 // Displays a random quote on top of the image
